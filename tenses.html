@@ -25,7 +25,6 @@
       flex-wrap: wrap;
       justify-items: space-around;
       display: flex;
-      width: 100vw;
       flex-direction: row;
       background-color: powderblue;
     }
@@ -35,11 +34,11 @@
       border: dashed 3px rgb(94, 174, 211);
       margin: 10px;
       padding: 15px;
+      margin-bottom: 40px;
     }
 
     h2 {
-      display: flex;
-      flex-direction: row;
+      display: block;
       justify-content: center;
       text-align: center;
       font-size: 48px;
@@ -63,7 +62,20 @@
 
     }
 
+    .past {
+      flex-wrap: wrap;
+      justify-items: space-around;
+      display: flex;
+      flex-direction: row;
+      background-color:lightgreen;
+    }
 
+    .past-time {
+      flex: 1 1 250px;
+      border: dashed 3px rgb(48, 221, 149);
+      margin: 10px;
+      padding: 15px;
+    }
   </style>
 </head>
 
@@ -137,6 +149,42 @@
           * I have felt love ever since I met him.
         </div>
 
+      </div>
+    </section>
+
+    <h2>Past</h2>
+    <section class="past">
+      <div class="past-time">
+        <h3>Past Simple</h3>
+        Дія, що відбувалася/відбулася у минулому.
+        <div class="example">
+          *My daughter wanted to have a dog when she was a kid. <br>
+          *In 2000 I graduated from the university.
+        </div>
+      </div>
+      <div class="past-time">
+        <h3>Past Continuous</h3>
+        Дія, що відбувалася/відбулася у минулому в конкретний час.
+        <div class="example">
+          *- What were you doing yesterday at 7 PM? - I was watching TV. <br>
+          *I was changing clothes when you came in. (Перша частина речення - Past Continuous, друга - Past Simple)
+        </div>
+      </div>
+      <div class="past-time">
+        <h3>Past Perfect</h3>
+        Позначає щось, що відбулося <b>до</b> певного моменту у минулому. Тобто якщо певна подія відбулася у Past Simple, то те, що сталося ще до того, позначається цим часом - Past Perfect.
+        <div class="example">
+          *She had been to America before she went to England. <br>
+          *I had lived many years in Donets'k before I moved to Berd'ask.
+        </div>
+      </div>
+      <div class="past-time">
+        <h3>Past Perfect Continuous</h3>
+        Дія почалася у минулому і тривала до іншого моменту у минулому.
+        <div class="example">
+          *I had been working at the company for five years when I got the promotion. <br>
+          *He had been throwing rocks at her window for five minutes before she finally came out on the balcony and said, “Hey, Romeo.”
+        </div>
       </div>
     </section>
   </main>
